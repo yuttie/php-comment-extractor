@@ -4,3 +4,9 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+clap = { version = "4.5.4", features = ["derive"] }
+tree-sitter = "0.22"
+tree-sitter-php = "0.22"
+
+[build-dependencies]
+cc = "*"
